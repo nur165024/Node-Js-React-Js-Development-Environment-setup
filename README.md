@@ -19,6 +19,24 @@
 
 Please follow the below instructions to update node in your machine:
 
+### Extensions
+
+Install the below Extensions :
+
+- [Auto Import]
+- [ESLint]
+- [JavaScript (ES6) code snippets]
+- [Live Server]
+- [Learn with sumit color theme]
+- [Material Icon Theme]
+- [Npm]
+- [Npm Intellisense]
+- [Path Intellisense]
+- [Prettier code Formatter]
+- [React Extension Pack]
+- [React js code snippets]
+- [Search node_modules]
+
 ### Global settings
 
 ```sh
@@ -77,4 +95,14 @@ Please follow the below instructions to update node in your machine:
   // color theme
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye"
   }
+```
+
+## React Js
+
+React js command line, workspace & Eslintrc settings follow the bellow :
+
+### Settings command line
+
+```sh
+
 ```
