@@ -159,7 +159,7 @@ and then simply run the below command in the terminal -
 
 ### Eslintrc Settings
 
-Create a `.eslintrc,json` file in the project root and enter the below contents:
+Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ```json
 {
@@ -244,7 +244,7 @@ Node js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Node Js Eslintrc Settings
 
-Create a `.eslintrc,json` file in the project root and enter the below contents:
+Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ```json
 {
