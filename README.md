@@ -12,7 +12,7 @@
   - [Eslintrc Settings](#eslintrc-settings)
 - [Node Js](#node-js)
   - [Node Js Settings command line](#node-js-settings-command-line)
-  - [Node Js Workspace Settings](#node-js-workspace-setting)
+  - [Node Js Workspace Settings](#node-js-workspace-settings)
   - [Node Js Eslintrc Settings](#node-js-eslintrc-settings)
 
 ## VS code Extensions
