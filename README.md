@@ -244,6 +244,8 @@ Node js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Node Js Eslintrc Settings
 
+Create a `.eslintrc,json` file in the project root and enter the below contents:
+
 ```json
 {
   "extends": ["prettier", "airbnb-base"],
