@@ -1,4 +1,7 @@
 <p align="center">
+    <img src="image/JavaScript.png" />
+    <img src="image/reactjs.jpg" />
+    <img src="image/JavaScript.png" />
     <h1 align="center">Javascript Development Environment Setup</h1>
 </p>
 
