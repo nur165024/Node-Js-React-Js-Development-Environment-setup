@@ -93,7 +93,8 @@ Install the below Extensions :
   // live server
   "liveServer.settings.donotVerifyTags": true,
   // color theme
-  "workbench.colorTheme": "Learn with Sumit - Peace of the eye"
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+  "editor.tabSize": 2
   }
 ```
 
