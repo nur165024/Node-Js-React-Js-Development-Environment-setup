@@ -217,6 +217,8 @@ Node js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Node Js Settings command line
 
+#### Install Dev Dependencies
+
 ```sh
   npm install -D eslint prettier
   npx install-peerdeps --dev eslint-config-airbnb-base
