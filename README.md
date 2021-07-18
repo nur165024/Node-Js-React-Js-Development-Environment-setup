@@ -1,5 +1,5 @@
 <p align="center">
-    <h3 align="center">Javascript Development Environment Setup</h3>
+    <h1 align="center">Javascript Development Environment Setup</h1>
 </p>
 
 ## Table of Contents (VS Code)
