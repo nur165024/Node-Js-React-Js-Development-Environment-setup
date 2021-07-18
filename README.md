@@ -104,7 +104,7 @@ React js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Settings command line
 
-Install Dev Dependencies
+#### Install Dev Dependencies
 
 ```sh
   npm install -D prettier
