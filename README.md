@@ -1,7 +1,7 @@
 <p align="center">
     <img width="100px" src="image/JavaScript.png" />
     <img width="100px" src="image/reactjs.png" />
-    <img width="100px" src="image/node-js.png" />
+    <img width="100px" src="image/node-js.jpeg" />
     <h1 align="center">Javascript Development Environment Setup</h1>
 </p>
 
