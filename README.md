@@ -39,8 +39,8 @@ Install the below Extensions :
 
 ### VS Code Global settings
 
-```sh
-  {
+```json
+{
   // editor
   "editor.fontSize": 18,
   "editor.fontFamily": "Menlo, Monaco,'Courier New',Fira Code",
@@ -95,7 +95,7 @@ Install the below Extensions :
   // color theme
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
   "editor.tabSize": 2
-  }
+}
 ```
 
 ## React Js
@@ -103,6 +103,8 @@ Install the below Extensions :
 React js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Settings command line
+
+Install Dev Dependencies
 
 ```sh
   npm install -D prettier
@@ -113,7 +115,7 @@ React js command line, workspace & Eslintrc settings follow the bellow :
 
 OR You can also add a new script in the scripts section like below to install everything with a single command:
 
-```sh
+```json
 scripts: {
   "lint": "npm install -D prettier && npm install -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && npm install -D eslint-config-prettier eslint-plugin-prettier"
 }
@@ -127,8 +129,8 @@ and then simply run the below command in the terminal -
 
 ### Workspace Settings
 
-```sh
-  {
+```json
+{
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -157,8 +159,10 @@ and then simply run the below command in the terminal -
 
 ### Eslintrc Settings
 
-```sh
-  {
+Create a `.eslintrc,json` file in the project root and enter the below contents:
+
+```json
+{
   "extends": [
     "airbnb",
     "airbnb/hooks",
@@ -221,50 +225,50 @@ Node js command line, workspace & Eslintrc settings follow the bellow :
 
 ### Node Js Workspace Settings
 
-```sh
-  {
-    // config related to code formatting
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "[javascript]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": true
-    },
-    "eslint.alwaysShowStatus": true
-  }
+```json
+{
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true
+}
 ```
 
 ### Node Js Eslintrc Settings
 
-```sh
-  {
-    "extends": ["prettier", "airbnb-base"],
-    "parserOptions": {
-      "ecmaVersion": 12
-    },
-    "env": {
-      "commonjs": true,
-      "node": true
-    },
-    "rules": {
-      "no-console": 0,
-      "indent": 0,
-      "linebreak-style": 0,
-      "prettier/prettier": [
-        "error",
-        {
-          "trailingComma": "es5",
-          "singleQuote": true,
-          "printWidth": 100,
-          "tabWidth": 4,
-          "semi": true
-        }
-      ]
-    },
-    "plugins": ["prettier"]
-  }
+```json
+{
+  "extends": ["prettier", "airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "env": {
+    "commonjs": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "indent": 0,
+    "linebreak-style": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 4,
+        "semi": true
+      }
+    ]
+  },
+  "plugins": ["prettier"]
+}
 ```
