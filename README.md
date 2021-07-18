@@ -4,8 +4,8 @@
 
 ## Table of Contents (VS Code)
 
-- [VS code Extensions](#vs-code-extensions)
-  - [Global settings](#global-settings)
+- [VS Code Extensions](#vs-code-extensions)
+- [VS Code Global settings](#global-settings)
 - [React Js](#react-js)
   - [Settings command line](#ra-js-settings-command-line)
   - [Workspace Settings](#ra-js-workspace-setting)
@@ -37,7 +37,7 @@ Install the below Extensions :
 - [React js code snippets]
 - [Search node_modules]
 
-### Global settings
+### VS Code Global settings
 
 ```sh
   {
@@ -104,5 +104,104 @@ React js command line, workspace & Eslintrc settings follow the bellow :
 ### Settings command line
 
 ```sh
+  npm install -D prettier
+  npm install -D babel-eslint
+  npx install-peerdeps --dev eslint-config-airbnb
+  npm install -D eslint-config-prettier eslint-plugin-prettier
+```
 
+OR You can also add a new script in the scripts section like below to install everything with a single command:
+
+```sh
+scripts: {
+  "lint": "npm install -D prettier && npm install -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && npm install -D eslint-config-prettier eslint-plugin-prettier"
+}
+```
+
+and then simply run the below command in the terminal -
+
+```sh
+  npm run lint
+```
+
+### Workspace Settings
+
+```sh
+  {
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
+```
+
+### Eslintrc Settings
+
+```sh
+  {
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": 0,
+    "react/state-in-constructor": 0,
+    "indent": 0,
+    "linebreak-style": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 4,
+        "semi": true,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "plugins": ["prettier", "react", "react-hooks"]
+}
 ```
