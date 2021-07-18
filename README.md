@@ -8,7 +8,7 @@
 - [VS Code Global settings](#vs-code-global-settings)
 - [React Js](#react-js)
   - [Settings command line](#settings-command-line)
-  - [Workspace Settings](#workspace-setting)
+  - [Workspace Settings](#workspace-settings)
   - [Eslintrc Settings](#eslintrc-settings)
 - [Node Js](#node-js)
   - [Node Js Settings command line](#node-js-settings-command-line)
@@ -208,8 +208,62 @@ and then simply run the below command in the terminal -
 
 ## Node Js
 
+Node js command line, workspace & Eslintrc settings follow the bellow :
+
 ### Node Js Settings command line
+
+```sh
+  npm install -D eslint prettier
+  npx install-peerdeps --dev eslint-config-airbnb-base
+  npm install -D eslint-config-prettier eslint-plugin-prettier
+```
 
 ### Node Js Workspace Settings
 
+```sh
+  {
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true
+  }
+```
+
 ### Node Js Eslintrc Settings
+
+```sh
+  {
+    "extends": ["prettier", "airbnb-base"],
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "env": {
+      "commonjs": true,
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "indent": 0,
+      "linebreak-style": 0,
+      "prettier/prettier": [
+        "error",
+        {
+          "trailingComma": "es5",
+          "singleQuote": true,
+          "printWidth": 100,
+          "tabWidth": 4,
+          "semi": true
+        }
+      ]
+    },
+    "plugins": ["prettier"]
+  }
+```
