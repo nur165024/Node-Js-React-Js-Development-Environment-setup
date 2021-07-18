@@ -5,15 +5,15 @@
 ## Table of Contents (VS Code)
 
 - [VS Code Extensions](#vs-code-extensions)
-- [VS Code Global settings](#global-settings)
+- [VS Code Global settings](#vs-code-global-settings)
 - [React Js](#react-js)
-  - [Settings command line](#ra-js-settings-command-line)
-  - [Workspace Settings](#ra-js-workspace-setting)
-  - [Eslintrc Settings](#ra-js-eslintrc-settings)
-- [Node Js](#react-js)
-  - [Settings command line](#node-js-settings-command-line)
-  - [Workspace Settings](#node-js-workspace-setting)
-  - [Eslintrc Settings](#node-js-eslintrc-settings)
+  - [Settings command line](#settings-command-line)
+  - [Workspace Settings](#workspace-setting)
+  - [Eslintrc Settings](#eslintrc-settings)
+- [Node Js](#node-js)
+  - [Node Js Settings command line](#node-js-settings-command-line)
+  - [Node Js Workspace Settings](#node-js-workspace-setting)
+  - [Node Js Eslintrc Settings](#node-js-eslintrc-settings)
 
 ## VS code Extensions
 
@@ -205,3 +205,11 @@ and then simply run the below command in the terminal -
   "plugins": ["prettier", "react", "react-hooks"]
 }
 ```
+
+## Node Js
+
+### Node Js Settings command line
+
+### Node Js Workspace Settings
+
+### Node Js Eslintrc Settings
