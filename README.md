@@ -37,6 +37,8 @@ Install the below Extensions :
 - [React Extension Pack]
 - [React js code snippets]
 - [Search node_modules]
+- [Typescript React code snippets]
+- [Auto Rename Tag]
 
 ### VS Code Global settings
 
