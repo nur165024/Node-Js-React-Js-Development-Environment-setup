@@ -39,6 +39,7 @@ Install the below Extensions :
 - [Search node_modules]
 - [Typescript React code snippets]
 - [Auto Rename Tag]
+- [Thunder Client as like postman]
 
 ### VS Code Global settings
 
