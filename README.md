@@ -41,6 +41,7 @@ Install the below Extensions :
 - [Auto Rename Tag]
 - [Thunder Client as like postman]
 - [Code Spell Checker]
+- [Tailwind CSS IntelliSense]
 
 ### VS Code Global settings
 
