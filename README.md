@@ -40,6 +40,7 @@ Install the below Extensions :
 - [Typescript React code snippets]
 - [Auto Rename Tag]
 - [Thunder Client as like postman]
+- [Code Spell Checker]
 
 ### VS Code Global settings
 
