@@ -100,7 +100,8 @@ Install the below Extensions :
   "liveServer.settings.donotVerifyTags": true,
   // color theme
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
 ```
 
