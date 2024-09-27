@@ -62,7 +62,7 @@ Install the below Extensions :
     ]
   },
   // cursor
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -76,11 +76,11 @@ Install the below Extensions :
     "editor.defaultFormatter": null
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": "always",
+    "source.fixAll.tslint": "always",
+    "source.organizeImports": "always"
   },
-  "eslint.alwaysShowStatus": true,
+  // "eslint.alwaysShowStatus": true,
   //terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
@@ -91,16 +91,18 @@ Install the below Extensions :
     "razor": "html",
     "plaintext": "pug"
   },
-  // ---------- install vs code extenstion
+  // ---------- install vs code extension
   // iconTheme theme
   "workbench.iconTheme": "material-icon-theme",
   // live server
-  "liveServer.settings.donotVerifyTags": true,
+  // "liveServer.settings.donotVerifyTags": true,
   // color theme
   "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
   "editor.tabSize": 2,
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.sideBar.location": "right"
 }
+
 ```
 
 ## React Js
